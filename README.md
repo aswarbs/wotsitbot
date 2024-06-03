@@ -1,8 +1,6 @@
-<p align="center"><img src="header.png"></p>
+<p align="center"><img src="wotsitheader.png"></p>
 
 <div align="center">
-
-  <h1 align="center">WOTSITBOT</h1>
 
   <p align="center">
     Won Best Demo at Hack The Burgh! Differential Drive Robot helping young learners discover information about the world.
@@ -29,6 +27,8 @@ We built a homemade differential drive robot, along with a camera and a tilt ser
 Then a game interface is produced using GameMaker Studio 2, which allows the user to control the robot, and see what it sees, which is all done through websockets and a UDP server.
 
 When a user selects an object in the world, we run a local Segment Anything model to mask the object, and then pass it into OpenAI to retrieve what the object is. Information and pictures about the object are then scraped from the internet, and redisplayed to the user!
+
+<p align="center"><img src="wotsitrobot.jpg"></p>
 
 ## Contributors
 
